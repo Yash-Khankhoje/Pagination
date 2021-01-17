@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styling for Pagination Starts Hear */
+        .pagination-position{
+        /* margin-top: 4%; */
+        margin-left: 33%;
+        }
+        .table-position{
+        margin-top: 5%;
+        margin-left: 27%;
+        }
+        .pagination { 
+            display: inline-block; 
+        } 
+        .pagination a { 
+            font-weight:bold; 
+            font-size:20px; 
+            color: black; 
+            float: left; 
+            padding: 8px 16px; 
+            text-decoration: none; 
+            border:1px solid black; 
+        } 
+        .pagination a.active { 
+            background-color: dimgray;
+        }  
+        .pagination a:hover:not(.active) { 
+            background-color: #d4d5d2; 
+        } 
+
+        .pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+        /* Styling for pagination Ends hear */
+    
+        /* Styling for table Starts hear */
+        th, td, p, input {
+                font:14px Verdana;
+            }
+            table, th, td 
+            {
+                border: solid 1px #DDD;
+                border-collapse: collapse;
+                padding: 2px 3px;
+                text-align: center;
+            }
+            th {
+                font-weight:bold;
+            }
+        /* Styling for table Ends  hear */
+        </style>
+</head>
+<body>
+  
+    <script src="FinalTask.JS"></script>
+    <p class="table-position" id="showData"></p>
+</body>
+</html>
